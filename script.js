@@ -7,38 +7,38 @@
 // Hints(?):  .push(), %,  .forEach()
 
 
-// function evenOrOdd(arr) {
-//   const even = [];
-//   const odd = [];
-  
-//   for (var i= 0; i<arr.length; i++){
-//   if ((arr[i]%2) !=1){
-//       even.push(arr[i]);
-//   }
-//   else {
-//       odd.push(arr[i]);
-//   }
-//   return {  /* Arrays*/ }
-// }}
-
-
-// const numArray = [1, 36, 2, 56, 9, 23, 5, 72, 36];
-// console.log(evenOrOdd(numArray).odd) // =>  [1, 9, 23, 5]
-// console.log(evenOrOdd(numArray).even) // =>  [36, 2, 56, 72, 36]
-
-
 function evenOrOdd(arr) {
- const even = [];
- const odd = [];
+  const even = [];
+  const odd = [];
+  
+  for (var i= 0; i<arr.length; i++){
+  if ((arr[i]%2) !=1){
+      even.push(arr[i]);
+  }
+  else {
+      odd.push(arr[i]);
+  }
+  return {  /* Arrays*/ }
+}}
+
+
+const numArray = [1, 36, 2, 56, 9, 23, 5, 72, 36];
+console.log(evenOrOdd(numArray).odd) // =>  [1, 9, 23, 5]
+console.log(evenOrOdd(numArray).even) // =>  [36, 2, 56, 72, 36]
+
+
+// function evenOrOdd(arr) {
+//  const even = [];
+//  const odd = [];
 
 
 
-  return {
-   even,
-   odd,
-  };
-}
-let numArray = [1, 36, 2, 56, 9, 23, 5, 72, 36];
-const { even, odd } = evenOrOdd(numArray)
-console.log(odd); // =>  [1, 9, 23, 5]
-console.log(even); // =>  [36, 2, 56, 72, 36]
+//   return {
+//    even,
+//    odd,
+//   };
+// }
+// let numArray = [1, 36, 2, 56, 9, 23, 5, 72, 36];
+// const { even, odd } = evenOrOdd(numArray)
+// console.log(odd); // =>  [1, 9, 23, 5]
+// console.log(even); // =>  [36, 2, 56, 72, 36]
